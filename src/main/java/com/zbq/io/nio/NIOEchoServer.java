@@ -20,7 +20,7 @@ import java.util.concurrent.Executors;
  *
  * 作用：Java的NIO可以将网络IO等待时间从业务处理线程中抽取出来。
  */
-public class NioEchoServer {
+public class NIOEchoServer {
 
     /**
      * 1.selector用于处理所有的网络连接
@@ -237,7 +237,7 @@ public class NioEchoServer {
      * @param args
      */
     public static void main(String[] args) throws Exception {
-        NioEchoServer nioEchoServer = new NioEchoServer();
+        NIOEchoServer nioEchoServer = new NIOEchoServer();
         nioEchoServer.startServer();
     }
 }

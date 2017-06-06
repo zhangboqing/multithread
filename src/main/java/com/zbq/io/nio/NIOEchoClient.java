@@ -15,7 +15,7 @@ import java.util.Iterator;
  * nio 客户端
  * 核心的元素也是Selector、Channel和SelectionKey
  */
-public class NioEchoClient {
+public class NIOEchoClient {
 
     private Selector selector;
 
@@ -93,7 +93,7 @@ public class NioEchoClient {
      * @param args
      */
     public static void main(String[] args) throws IOException {
-        NioEchoClient nioEchoClient = new NioEchoClient();
+        NIOEchoClient nioEchoClient = new NIOEchoClient();
         nioEchoClient.init("localhost",8000);
         nioEchoClient.working();
     }
