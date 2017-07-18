@@ -1,9 +1,6 @@
 package com.zbq.test;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
 import java.util.function.IntConsumer;
 
 /**
@@ -21,7 +18,6 @@ public class Test1 {
             }
         });
     }
-
 
 
 }
